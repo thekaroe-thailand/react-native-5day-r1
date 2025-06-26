@@ -19,6 +19,10 @@ export default function IndexScreen() {
                 onPress={() => router.push('/screen/ScreenSize')} />
             <Button title='ไปหน้า CheckOriantation' onPress={() => router.push('/screen/CheckOrientation')} />
             <Button title='ไปหน้า CheckInternetConnection' onPress={() => router.push('/screen/CheckInternetConnect')} />
+            <Button title='ไปหน้า LinkAppExample'
+                onPress={() => router.push('/screen/LinkAppExample')} />
+            <Button title='ไปหน้า Location' onPress={() => router.push('/screen/LocationExample')} />
+            <Button title='ไปหน้า Google Map' onPress={() => router.push('/screen/GoogleMapExample')} />
         </View>
     )
 }
