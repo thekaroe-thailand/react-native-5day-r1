@@ -1,3 +1,4 @@
+/*
 import React, { useEffect, useState } from 'react';
 import { View, StyleSheet, Dimensions, ActivityIndicator, Button } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
@@ -61,3 +62,4 @@ const styles = StyleSheet.create({
         height: Dimensions.get('window').height
     }
 })
+    */

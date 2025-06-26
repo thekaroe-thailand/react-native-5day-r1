@@ -23,6 +23,10 @@ export default function IndexScreen() {
                 onPress={() => router.push('/screen/LinkAppExample')} />
             <Button title='ไปหน้า Location' onPress={() => router.push('/screen/LocationExample')} />
             <Button title='ไปหน้า Google Map' onPress={() => router.push('/screen/GoogleMapExample')} />
+            <Button title='ไปหน้า AsyncStorageExample' onPress={() => router.push('/screen/AsyncStorageExample')} />
+            <Button title='ไปหน้า CameraExample' onPress={() => router.push('/screen/CameraExample')} />
+            <Button title='ไปหน้า BarcodeAndQrCodeExample' onPress={() => router.push('/screen/BarcodeAndQrCodeExample')} />
+            <Button title='ไปหน้า ImagePickerExample' onPress={() => router.push('/screen/ImagePickerExample')} />
         </View>
     )
 }
