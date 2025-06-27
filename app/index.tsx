@@ -27,6 +27,7 @@ export default function IndexScreen() {
             <Button title='ไปหน้า CameraExample' onPress={() => router.push('/screen/CameraExample')} />
             <Button title='ไปหน้า BarcodeAndQrCodeExample' onPress={() => router.push('/screen/BarcodeAndQrCodeExample')} />
             <Button title='ไปหน้า ImagePickerExample' onPress={() => router.push('/screen/ImagePickerExample')} />
+            <Button title='ไปหน้า ApiExample' onPress={() => router.push('/screen/ApiExample')} />
         </View>
     )
 }
